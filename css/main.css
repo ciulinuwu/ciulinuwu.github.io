@@ -1,5 +1,12 @@
+html {
+    overflow: hidden;
+}
+
 html, body {
     margin: 0;
+}
+
+html, body, #main {
     height: 100%;
 }
 
