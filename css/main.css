@@ -10,56 +10,64 @@ html {
     overflow: hidden;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
-    background: url(https://media.discordapp.net/attachments/947238236063940658/985203243435036752/ciulin.png);
+    background: url(./media/ciulin.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
 
     margin: 0;
     padding: 0;
 }
 
-#app {
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-}
+@media only screen and (min-width: 360px) {
+    html, body {
+        height: 100%;
+    }
 
-#app {
-    display: none;
-}
+    #app {
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+    }
 
-div.container {
-    height: inherit;
-    width: inherit;
-}
+    #app {
+        display: none;
+    }
 
-div#Warning {
-    display: none;
-    text-align: center;
-}
+    div.container {
+        display: none;
+    }
 
-div.main {
-    background: rgba(128, 128, 128, 0.5);
+    div.container {
+        height: inherit;
+        width: inherit;
 
-    height: inherit;
-    width: 80%;
+        text-align: center;
+    }
 
-    margin-left: auto;
-    margin-right: auto;
+    div.main {
+        background: rgba(128, 128, 128, 0.5);
+        color: #333;
+        text-align: center;
+        font-family: "arial","helvetica",sans-serif;
+        margin: auto;
+        padding: 0;
+        width: 820px;
+        height: inherit;
+    }
+
+    div.main {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        min-width: 800px !important;
+    }
 }
 
 @media only screen and (max-width: 360px) {
-    body {
-        background: black;
-        color: white;
-    }
-    div.container {
-        display: none !important;
-    }
-    div#Warning {
-        display: block !important;
+    * {
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
     }
 }

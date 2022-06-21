@@ -1,26 +1,81 @@
 header {
     width: 100%;
-    line-height: 64px;
-    height: 64px;
+    text-align: center;
+    font-size: 75%;
+    position: relative;
+    z-index: 9999;
+    background: transparent;
+    height: 37px;
 }
 
-header h1 {
-    text-align: center;
+header, footer {
+    width: 820px;
+    margin: 0 auto;
+    text-align: left;
+    clear: both;
+}
+
+header {
+    overflow: hidden;
+    position: relative;
+}
+
+header #header-body {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+}
+
+header #header-body {
+    width: 820px;
 }
 
 nav {
-    text-align: center;
+    background: transparent;
+    margin: 0 auto 15px;
+    padding: 0 0 10px 0;
+    width: 820px;
+}
+
+nav ul {
+    background: transparent;
+    font-weight: bold;
+    padding: 10px 10px 0 5px;
+    text-align: left;
+    position: relative;
+    font-size: 90%;
+}
+
+nav ul li {
+    display: inline;
+    color: #fff;
+    font-size: 100%;
+    margin-left: 10px;
+    padding: 0px 0 0 20px;
+    line-height: 1em;
 }
 
 nav a {
-    color: black;
+    color: white;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+table {
+    width: 50%;
+    border: 1px solid black;
+}
+
+main {
+    text-align: left;
+    width: 820px;
+    margin: 0 auto;
+    position: relative;
+}
+
 footer {
-    position: absolute;
-    bottom: 0;
+    padding-top: 40px;
 }

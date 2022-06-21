@@ -2,29 +2,25 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>🐈 Ciulin's Website</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/js/jquery-1.12.4.min.js"></script>
         <script src="https://www.youtube.com/iframe_api"></script>
-        <script src="./js/main.min.js"></script>
-        <link rel="stylesheet" href="./css/main.css" />
-        <link rel="stylesheet" href="./css/player.css" />
-        <link rel="stylesheet" href="./css/elements.css" />
+        <script src="/js/main.min.js"></script>
+        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" href="/css/player.css" />
+        <link rel="stylesheet" href="/css/elements.css" />
     </head>
     <body>
         <div id="app">
             <div id="Website" class="container">
                 <div class="main">
                     <header>
-                        <h1>ciulinuwu's Page</h1>
+                        <div id="header-body">
+                            <h1>ciulinuwu's Page</h1>
+                        </div>
                     </header>
-                    <nav>
-                        <a data-url="/" href="#">Home</a> |
-                        <a data-url="/projects" href="#">Projects</a>
-                    </nav>
-                    <main>
-                        <p>Hello World</p>
-                    </main>
+                    <nav></nav>
+                    <main></main>
                     <footer>
                         <p>@ ciulinuwu</p>
                     </footer>
@@ -32,9 +28,6 @@
             </div>
             <div id="onLoad" class="container">
                 <div id="player"></div>
-            </div>
-            <div id="Warning" class="container">
-                <p>Screen must be bigger than 360p</p>
             </div>
         </div>
     </body>
