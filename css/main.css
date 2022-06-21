@@ -1,15 +1,65 @@
+a, abbr, acronym, address, applet, b, big, blockquote, button, canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form, h1, h2, h3, h4, h5, h6, hr, html, i, iframe, img, ins, kbd, label, legend, li, menu, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
 html {
     overflow: hidden;
 }
 
 html, body {
-    margin: 0;
-}
-
-html, body, #main {
     height: 100%;
 }
 
-#main {
+body {
+    background: url(https://media.discordapp.net/attachments/947238236063940658/985203243435036752/ciulin.png);
+
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+#app {
     display: none;
+}
+
+div.container {
+    height: inherit;
+    width: inherit;
+}
+
+div#Warning {
+    display: none;
+    text-align: center;
+}
+
+div.main {
+    background: rgba(128, 128, 128, 0.5);
+
+    height: inherit;
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 360px) {
+    body {
+        background: black;
+        color: white;
+    }
+    div.container {
+        display: none !important;
+    }
+    div#Warning {
+        display: block !important;
+    }
 }

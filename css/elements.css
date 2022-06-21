@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    line-height: 64px;
+    height: 64px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}

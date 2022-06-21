@@ -4,25 +4,38 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>🐈 Ciulin's Website</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" async=""></script>
-        <script src="https://www.youtube.com/iframe_api" async=""></script>
-        <script src="./js/main.min.js" async=""></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src="./js/main.min.js"></script>
         <link rel="stylesheet" href="./css/main.css" />
         <link rel="stylesheet" href="./css/player.css" />
+        <link rel="stylesheet" href="./css/elements.css" />
     </head>
     <body>
-        <div id="main">
-            <div class="container">
-                <p>Hello World</p>
+        <div id="app">
+            <div id="Website" class="container">
+                <div class="main">
+                    <header>
+                        <h1>ciulinuwu's Page</h1>
+                    </header>
+                    <nav>
+                        <a data-url="/" href="#">Home</a> |
+                        <a data-url="/projects" href="#">Projects</a>
+                    </nav>
+                    <main>
+                        <p>Hello World</p>
+                    </main>
+                    <footer>
+                        <p>@ ciulinuwu</p>
+                    </footer>
+                </div>
             </div>
-            <div class="background">
+            <div id="onLoad" class="container">
                 <div id="player"></div>
             </div>
-        </div>
-        <noscript>
-            <div>
-                <p>Please enable JavaScript.</p>
+            <div id="Warning" class="container">
+                <p>Screen must be bigger than 360p</p>
             </div>
-        </noscript>
+        </div>
     </body>
 </html>
