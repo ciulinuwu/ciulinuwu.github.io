@@ -1,9 +1,0 @@
-div#onLoad.container {
-    position: relative;
-    z-index: -1;
-}
-
-iframe#player {
-    width: inherit;
-    height: inherit;
-}
