@@ -11,7 +11,7 @@
             <td>Ciulin's YouTube</td>
         </tr>
         <tr>
-            <td><a>Link</a></td>
+            <td><a data-url="/projects/ciulin-youtube" data-type="main" href="#">Page Link</a></td>
         </tr>
     </tbody>
 </table>

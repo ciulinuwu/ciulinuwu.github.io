@@ -36,6 +36,7 @@ nav {
     margin: 0 auto 15px;
     padding: 0 0 10px 0;
     width: 820px;
+    border: 1px solid black;
 }
 
 nav ul {
