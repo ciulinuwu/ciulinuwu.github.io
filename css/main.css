@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: url(./media/ciulin.png);
+    background: url(/media/ciulin.png);
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
