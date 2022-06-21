@@ -20,7 +20,7 @@ body {
     padding: 0;
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 420px) {
     html, body {
         height: 100%;
     }
@@ -64,7 +64,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 420px) {
     * {
         margin: 0 !important;
         padding: 0 !important;
