@@ -4,11 +4,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>🐈 Ciulin's Website</title>
-        <script src="/lib/jquery-1.12.4.min.js"></script>
-        <script src="https://www.youtube.com/iframe_api"></script>
-        <script src="/js/main.min.js"></script>
         <link rel="stylesheet" href="/css/main.min.css" />
-        
+        <script src="/lib/jquery-1.12.4.min.js"></script>
+        <script src="/js/main.min.js"></script>
     </head>
     <body>
         <div id="app">
@@ -19,15 +17,23 @@
                             <h1>ciulinuwu's Page</h1>
                         </div>
                     </header>
-                    <nav></nav>
-                    <main></main>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a data-url="/home" data-type="main" data-event="false">Home</a>
+                            </li>
+                            <li>
+                                <a data-url="/projects" data-type="main" data-event="false">Projects</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <main>
+                        <p>Hello World</p>
+                    </main>
                     <footer>
                         <p>&copy; ciulinuwu</p>
                     </footer>
                 </div>
-            </div>
-            <div id="onLoad" class="container">
-                <div id="player"></div>
             </div>
         </div>
     </body>
